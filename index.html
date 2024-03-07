@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>intro-component-with-signup-form</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
+  
+</head>
+<body onload="Show()">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 ml">
+                <div><h1 class="line-1" id="name"></h1></div>
+                <div><p class="line-2">see how experienced developers solve problems in real time, Watching scripted tutorials is great.
+                    but understanding how developers think is think is invaluable </p></div>
+            </div>
+           
+            <div class="col-md-6">
+                <div class="trial">
+                <p >Try it free 7 days <span>then $20/mo. thereafter</span></p>
+                </div>
+                <div class="form" id="form">
+                     <div><input type="text" placeholder="First Name" id="fname"/></div>
+                     <span id="fillfname"></span>
+                    <div> <input type="text" placeholder="Last Name" id="lname"></div>
+                    <span id="filllname"></span>
+                    <div> <input type="email" placeholder="Email Address" id="email-a"></div>
+                    <span id="fillemail"></span>
+                    <div><input type="password" placeholder="Password" id="password"></div>
+                    <span id="fillpassword"></span>
+                    <div><input type="password" placeholder="Confirm Password" id="confirmpassword"></div>
+                    <span id="fillconfirmpassword"></span>
+                    <button onclick="formsubmission()">CLAIM YOUR  FREE TRIAL GIFT</button>
+                    <P >By clicking on the button you are agreeing to our <a  href="#">Terms and Services</a></P>
+                  
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+   <script src="index.js"></script>
+    
+</body>
+</html>

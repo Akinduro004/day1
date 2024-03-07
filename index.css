@@ -1,0 +1,188 @@
+body{
+    background-image: url("images/bg-intro-desktop.png");
+    background-color: rgb(183, 84, 100,0.7);
+    padding-left: 90px;
+    padding-right: 30px;
+}
+.line-1{
+    color: white;
+    margin-top: 170px;
+    width: 80%;
+    font-weight: bolder;
+    font-size: 50px;
+}
+.line-2{
+    color: white;
+    font-weight: bolder; 
+}
+.trial{
+    background-color: blue;
+    border-radius: 5px;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    height: 50px;
+    width: 80%;
+    padding-top:10px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.trial span{
+    color: gray;
+}
+.form{
+background-color: white;
+border-radius: 7px;
+height: 400px;
+width: 80%;
+padding-top: 30px;
+padding-left: 20px;
+}
+.form button{
+    background-color: rgb(3, 48, 3,0.5);
+    border-radius: 5px;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    height: 40px;
+    width: 90%;
+    margin-top:30px;
+}
+.form:hover{
+cursor: pointer;
+}
+.form p{
+color: gray;
+text-align: center;
+font-size: 10px;
+margin-top: 10px;
+}
+.form a{
+color: red;
+}
+input{
+height: 40px;
+width: 90%;
+border-radius: 5px;
+margin-top: 10px;
+}
+input::placeholder{
+        font-size: small;
+    }
+
+@media(min-width: 768px) and (max-width:1024px){
+    body{
+        padding-left: 10px;
+        padding-right: 30px;
+    }
+    .line-1{
+        font-size: 30px;
+    }
+    .trial{
+        margin-top: 60px;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    .form{
+        width: 100%;
+        
+    }
+    input::placeholder{
+        font-size: small;
+    }
+    .form span{
+        font-size: 2px;
+
+    }
+}
+
+@media(min-width: 425px) and (max-width:767px){
+    body{
+        padding-left:30px ;
+        padding-right: 30px;
+    }
+    .line-1{
+        margin-top: 50px;
+        font-size: 40px;
+        text-align: center;
+    }
+    .line-2{
+        text-align: center;
+    }
+    .trial{
+        margin-top: 30px;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    .form{
+        width: 100%;
+        
+    }
+    input::placeholder{
+        font-size: small;
+    }
+}
+    @media(min-width:375px) and (max-width:424px){
+    body{
+        padding-left:30px ;
+        padding-right: 30px;
+        padding-top: 20px;
+    }
+    .line-1{
+        margin-top: 50px;
+        font-size: 30px;
+        width: 100%;
+        text-align: center;
+    }
+    .line-2{
+        text-align: center;
+    }
+    .trial{
+        margin-top: 30px;
+        margin-bottom: 10px;
+        width: 100%;
+        font-size: 14px;
+    }
+    .form{
+        width: 100%;
+        
+    }
+    input::placeholder{
+        font-size: small;
+    }
+    
+}
+@media(min-width:320px) and (max-width:374px){
+    body{
+        padding-left:30px ;
+        padding-right: 30px;
+    }
+    .line-1{
+        margin-top: 50px;
+        font-size: 30px;
+        width: 100%;
+        text-align: center;
+    }
+    .line-2{
+        text-align: center;
+    }
+    .trial{
+        margin-top: 30px;
+        margin-bottom: 10px;
+        width: 100%;
+      font-size: 14px;
+      height: 60px;
+   
+    }
+    .form{
+        width: 100%;
+        
+    }
+    .form button{
+        font-size: 10px;
+    }
+    input::placeholder{
+        font-size: small;
+    }
+    
+}

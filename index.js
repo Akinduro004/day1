@@ -18,7 +18,7 @@ function formsubmission(){
     var password=document.getElementById("password").value;
     var confirmpassword=document.getElementById("confirmpassword").value;
     var form=document.getElementById("form");
-   form.style.height="500px";
+   form.style.height="550px";
    
 
 
